@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: 7d54c7374fa611346bbfbe7f39f1508e
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Bat
+  - first:
+      1: 100004
+    second: Rig
+  - first:
+      1: 100006
+    second: RigHub
+  - first:
+      1: 100008
+    second: RigHubGizmo
+  - first:
+      1: 100010
+    second: RigJaw
+  - first:
+      1: 100012
+    second: RigJawGizmo
+  - first:
+      1: 100014
+    second: RigLArm1
+  - first:
+      1: 100016
+    second: RigLArm1Gizmo
+  - first:
+      1: 100018
+    second: RigLArm2
+  - first:
+      1: 100020
+    second: RigLArm2Gizmo
+  - first:
+      1: 100022
+    second: RigLEar1
+  - first:
+      1: 100024
+    second: RigLEar1Gizmo
+  - first:
+      1: 100026
+    second: RigLEar2
+  - first:
+      1: 100028
+    second: RigLEar2Gizmo
+  - first:
+      1: 100030
+    second: RigLEar3
+  - first:
+      1: 100032
+    second: RigLEar3Gizmo
+  - first:
+      1: 100034
+    second: RigRArm1
+  - first:
+      1: 100036
+    second: RigRArm1Gizmo
+  - first:
+      1: 100038
+    second: RigRArm2
+  - first:
+      1: 100040
+    second: RigRArm2Gizmo
+  - first:
+      1: 100042
+    second: RigREar1
+  - first:
+      1: 100044
+    second: RigREar1Gizmo
+  - first:
+      1: 100046
+    second: RigREar2
+  - first:
+      1: 100048
+    second: RigREar2Gizmo
+  - first:
+      1: 100050
+    second: RigREar3
+  - first:
+      1: 100052
+    second: RigREar3Gizmo
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Bat
+  - first:
+      4: 400004
+    second: Rig
+  - first:
+      4: 400006
+    second: RigHub
+  - first:
+      4: 400008
+    second: RigHubGizmo
+  - first:
+      4: 400010
+    second: RigJaw
+  - first:
+      4: 400012
+    second: RigJawGizmo
+  - first:
+      4: 400014
+    second: RigLArm1
+  - first:
+      4: 400016
+    second: RigLArm1Gizmo
+  - first:
+      4: 400018
+    second: RigLArm2
+  - first:
+      4: 400020
+    second: RigLArm2Gizmo
+  - first:
+      4: 400022
+    second: RigLEar1
+  - first:
+      4: 400024
+    second: RigLEar1Gizmo
+  - first:
+      4: 400026
+    second: RigLEar2
+  - first:
+      4: 400028
+    second: RigLEar2Gizmo
+  - first:
+      4: 400030
+    second: RigLEar3
+  - first:
+      4: 400032
+    second: RigLEar3Gizmo
+  - first:
+      4: 400034
+    second: RigRArm1
+  - first:
+      4: 400036
+    second: RigRArm1Gizmo
+  - first:
+      4: 400038
+    second: RigRArm2
+  - first:
+      4: 400040
+    second: RigRArm2Gizmo
+  - first:
+      4: 400042
+    second: RigREar1
+  - first:
+      4: 400044
+    second: RigREar1Gizmo
+  - first:
+      4: 400046
+    second: RigREar2
+  - first:
+      4: 400048
+    second: RigREar2Gizmo
+  - first:
+      4: 400050
+    second: RigREar3
+  - first:
+      4: 400052
+    second: RigREar3Gizmo
+  - first:
+      21: 2100000
+    second: 01 - Default
+  - first:
+      21: 2100002
+    second: 07 - Default
+  - first:
+      23: 2300000
+    second: //RootNode
+  - first:
+      23: 2300002
+    second: Bat
+  - first:
+      33: 3300000
+    second: //RootNode
+  - first:
+      33: 3300002
+    second: Bat
+  - first:
+      43: 4300000
+    second: Bat
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Bat
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftLowerLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - 72dc849f01da5b64bb5efb895b3c852f
+  - 9007b62bd0f992f4885306a4e1bcf64b
+  - 5279ffa0241322d4f9e5ce114ef07687
+  - cbda10e606ef94d4896d33b5a04a5c87
+  - 90fc1566d0ffd844e9a8b24844ab1410
+  - 5ac00d3df3341eb4cb96d7fc548cfdd2
+  - 7c4e223953093ea4ab64b107a6acbee4
+  - 0a542e57b829d104fbee8df82020f23b
+  - 8dea55cfb23544041b6989c456bb6c54
+  - 2de65f73e9bf98048ad08db3493ccee9
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Bat(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bat
+      parentName: Bat(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig
+      parentName: Bat(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.50000006, y: -0.50000006, z: -0.49999997, w: 0.49999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RigHubGizmo
+      parentName: Bat(Clone)
+      position: {x: 2.1892083e-14, y: 1.0116233, z: -0.000000044229864}
+      rotation: {x: 0.50000006, y: -0.50000006, z: -0.49999997, w: 0.49999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RigJawGizmo
+      parentName: Bat(Clone)
+      position: {x: 8.4687113e-10, y: 0.9745547, z: 0.019373609}
+      rotation: {x: -0.7010574, y: -0.09229581, z: 0.70105743, w: 0.09229595}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RigLEar1Gizmo
+      parentName: Bat(Clone)
+      position: {x: -0.1209439, y: 1.3020407, z: -0.034332313}
+      rotation: {x: 0.60025483, y: -0.37375683, z: -0.37375662, w: 0.60025495}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RigLEar2Gizmo
+      parentName: Bat(Clone)
+      position: {x: -0.15368369, y: 1.3686296, z: -0.03433234}
+      rotation: {x: 0.58090883, y: -0.40316862, z: -0.4031684, w: 0.58090895}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RigLEar3Gizmo
+      parentName: Bat(Clone)
+      position: {x: -0.17994235, y: 1.4389501, z: -0.034332365}
+      rotation: {x: 0.56098557, y: -0.43045944, z: -0.56098545, w: 0.4304593}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: RigREar1Gizmo
+      parentName: Bat(Clone)
+      position: {x: 0.12094392, y: 1.3020407, z: -0.034332275}
+      rotation: {x: -0.3737567, y: 0.600255, z: 0.6002548, w: -0.37375674}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RigREar2Gizmo
+      parentName: Bat(Clone)
+      position: {x: 0.15368372, y: 1.3686296, z: -0.03433229}
+      rotation: {x: -0.4031685, y: 0.580909, z: 0.5809088, w: -0.40316853}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RigREar3Gizmo
+      parentName: Bat(Clone)
+      position: {x: 0.17994235, y: 1.4389501, z: -0.03433231}
+      rotation: {x: 0.5609855, y: -0.43045935, z: -0.5609855, w: 0.43045938}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: RigLArm1Gizmo
+      parentName: Bat(Clone)
+      position: {x: -0.25992233, y: 1.2435461, z: -0.0064441776}
+      rotation: {x: 0.88171047, y: -0.47088927, z: -0.022744833, w: 0.018239753}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RigLArm2Gizmo
+      parentName: Bat(Clone)
+      position: {x: -0.34721965, y: 1.3741728, z: -0.0028405131}
+      rotation: {x: -0.4805043, y: 0.51598406, z: 0.51056856, w: -0.49213398}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RigRArm1Gizmo
+      parentName: Bat(Clone)
+      position: {x: 0.25992236, y: 1.2435461, z: -0.006444099}
+      rotation: {x: -0.022745244, y: 0.018240048, z: 0.88171047, w: -0.47088918}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: RigRArm2Gizmo
+      parentName: Bat(Clone)
+      position: {x: 0.34721968, y: 1.3741727, z: -0.0028403634}
+      rotation: {x: 0.510568, y: -0.49213368, z: -0.48050487, w: 0.5159843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RigHub
+      parentName: Bat(Clone)
+      position: {x: 2.1892083e-14, y: 1.0116233, z: -0.000000044229864}
+      rotation: {x: 0.50000006, y: -0.50000006, z: -0.49999997, w: 0.49999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RigREar1
+      parentName: RigHub
+      position: {x: -0.29041746, y: -0.034332205, z: -0.120943904}
+      rotation: {x: 0.0000000067220425, y: -0.22649814, z: 0.000000076262886, w: 0.9740116}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RigREar2
+      parentName: RigREar1
+      position: {x: -0.074202195, y: 0.0000000023841857, z: 0}
+      rotation: {x: -0.0000000042898525, y: 0.04977051, z: -0.0000000013645648, w: 0.9987607}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: RigREar3
+      parentName: RigREar2
+      position: {x: -0.07506317, y: 0, z: 0}
+      rotation: {x: -0.023199772, y: 0.17621982, z: -0.12844798, w: 0.9756585}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: RigJaw
+      parentName: RigHub
+      position: {x: 0.03706848, y: 0.019373646, z: -0.00000000377219}
+      rotation: {x: -4.986819e-14, y: -0.00000015447159, z: -0.7933533, w: 0.6087614}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RigRArm1
+      parentName: RigHub
+      position: {x: -0.23192291, y: -0.006444056, z: -0.25992236}
+      rotation: {x: -0.06453268, y: -0.6984494, z: -0.7095679, w: 0.06721106}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: RigRArm2
+      parentName: RigRArm1
+      position: {x: -0.15715301, y: 0, z: 0.00000004529953}
+      rotation: {x: 0.65384036, y: 0.21691535, z: 0.230565, w: 0.68722653}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: RigLEar1
+      parentName: RigHub
+      position: {x: -0.29041746, y: -0.034332205, z: 0.120943904}
+      rotation: {x: -0.0000000067220536, y: 0.22649814, z: 0.00000007626291, w: 0.9740116}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RigLEar2
+      parentName: RigLEar1
+      position: {x: -0.074202195, y: 0, z: 0}
+      rotation: {x: 0.0000000042898702, y: -0.04977051, z: -0.0000000013646351, w: 0.9987607}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: RigLEar3
+      parentName: RigLEar2
+      position: {x: -0.07506317, y: 0, z: 0}
+      rotation: {x: 0.023199776, y: -0.17621982, z: -0.12844796, w: 0.9756585}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: RigLArm1
+      parentName: RigHub
+      position: {x: -0.23192291, y: -0.006444056, z: 0.25992233}
+      rotation: {x: 0.06453219, y: 0.6984506, z: -0.70956683, w: 0.06721116}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RigLArm2
+      parentName: RigLArm1
+      position: {x: -0.15715323, y: -0.000000076293944, z: 0.00000004529953}
+      rotation: {x: -0.6538401, y: -0.21691528, z: 0.23056524, w: 0.6872267}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
