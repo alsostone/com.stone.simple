@@ -1,0 +1,17 @@
+<module name="l18n">
+    <bean name="ALocalize">
+        <var name="key" type="string"/>
+        <bean name="Localize_Cn">
+            <var name="cn" type="string"/>
+        </bean>
+        <bean name="Localize_En">
+            <var name="en" type="string"/>
+        </bean>
+        <bean name="Localize_Tw">
+            <var name="tw" type="string"/>
+        </bean>
+    </bean>
+    <table name="TbLocalize_Cn" value="Localize_Cn" input="l18n/Localize.csv" output="TbLocalize_Cn" mode="" readSchemaFromFile="flase" group="c"/>
+    <table name="TbLocalize_En" value="Localize_En" input="l18n/Localize.csv" output="TbLocalize_En" mode="" readSchemaFromFile="flase" group="c"/>
+    <table name="TbLocalize_Tw" value="Localize_Tw" input="l18n/Localize.csv" output="TbLocalize_Tw" mode="" readSchemaFromFile="flase" group="c"/>
+</module>

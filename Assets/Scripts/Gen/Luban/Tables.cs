@@ -13,17 +13,26 @@ namespace cfg
 {
 public partial class Tables
 {
-    public demo.TbDemo TbDemo {get; }
+    public l18n.TbLocalize_Cn TbLocalizeCn {get; }
+    public l18n.TbLocalize_En TbLocalizeEn {get; }
+    public l18n.TbLocalize_Tw TbLocalizeTw {get; }
+    public TbRes TbRes {get; }
 
     public Tables(System.Func<string, ByteBuf> loader)
     {
-        TbDemo = new demo.TbDemo(loader("demo_tbdemo"));
+        TbLocalizeCn = new l18n.TbLocalize_Cn(loader("TbLocalize_Cn"));
+        TbLocalizeEn = new l18n.TbLocalize_En(loader("TbLocalize_En"));
+        TbLocalizeTw = new l18n.TbLocalize_Tw(loader("TbLocalize_Tw"));
+        TbRes = new TbRes(loader("tbres"));
         ResolveRef();
     }
     
     private void ResolveRef()
     {
-        TbDemo.ResolveRef(this);
+        TbLocalizeCn.ResolveRef(this);
+        TbLocalizeEn.ResolveRef(this);
+        TbLocalizeTw.ResolveRef(this);
+        TbRes.ResolveRef(this);
     }
 }
 
