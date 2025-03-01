@@ -7,12 +7,14 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System;
+using System.Collections.Concurrent;
 using Luban;
 
 
 namespace cfg.l18n
 {
-public partial class TbLocalize_Tw
+public partial class TbLocalize_Tw : TableSingleton<TbLocalize_Tw>
 {
     private readonly System.Collections.Generic.Dictionary<string, l18n.Localize_Tw> _dataMap;
     private readonly System.Collections.Generic.List<l18n.Localize_Tw> _dataList;
@@ -38,7 +40,7 @@ public partial class TbLocalize_Tw
     public l18n.Localize_Tw Get(string key) => _dataMap[key];
     public l18n.Localize_Tw this[string key] => _dataMap[key];
 
-    public void ResolveRef(Tables tables)
+    public override void ResolveRef(ConcurrentDictionary<Type, ITableSingleton> tables)
     {
         foreach(var _v in _dataList)
         {

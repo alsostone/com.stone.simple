@@ -1,4 +1,4 @@
-﻿namespace Timing.Common
+﻿namespace ST.Common
 {
     public class Singleton<T> where T : new()
     {

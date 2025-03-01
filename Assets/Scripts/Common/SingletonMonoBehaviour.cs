@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Timing.Common
+namespace ST.Common
 {
     public abstract class SingletonMonoBehaviour<T> : MonoBehaviour, IClear where T : MonoBehaviour
     {

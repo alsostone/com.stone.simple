@@ -7,6 +7,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System;
+using System.Collections.Concurrent;
 using Luban;
 
 
@@ -29,7 +31,7 @@ public sealed partial class Localize_Cn : l18n.ALocalize
     public const int __ID__ = -2130707410;
     public override int GetTypeId() => __ID__;
 
-    public override void ResolveRef(Tables tables)
+    public override void ResolveRef(ConcurrentDictionary<Type, ITableSingleton> tables)
     {
         base.ResolveRef(tables);
     }

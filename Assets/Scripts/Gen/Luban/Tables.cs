@@ -7,33 +7,23 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Luban;
+using System;
+using System.Collections.Generic;
 
 namespace cfg
 {
-public partial class Tables
+public static class Tables
 {
-    public l18n.TbLocalize_Cn TbLocalizeCn {get; }
-    public l18n.TbLocalize_En TbLocalizeEn {get; }
-    public l18n.TbLocalize_Tw TbLocalizeTw {get; }
-    public TbRes TbRes {get; }
-
-    public Tables(System.Func<string, ByteBuf> loader)
+    public static List<Type> TableTypes;
+    static Tables()
     {
-        TbLocalizeCn = new l18n.TbLocalize_Cn(loader("TbLocalize_Cn"));
-        TbLocalizeEn = new l18n.TbLocalize_En(loader("TbLocalize_En"));
-        TbLocalizeTw = new l18n.TbLocalize_Tw(loader("TbLocalize_Tw"));
-        TbRes = new TbRes(loader("tbres"));
-        ResolveRef();
-    }
-    
-    private void ResolveRef()
-    {
-        TbLocalizeCn.ResolveRef(this);
-        TbLocalizeEn.ResolveRef(this);
-        TbLocalizeTw.ResolveRef(this);
-        TbRes.ResolveRef(this);
+        TableTypes = new List<Type>()
+        {
+            typeof(l18n.TbLocalize_Cn),
+            typeof(l18n.TbLocalize_En),
+            typeof(l18n.TbLocalize_Tw),
+            typeof(TbRes),
+        };
     }
 }
-
 }

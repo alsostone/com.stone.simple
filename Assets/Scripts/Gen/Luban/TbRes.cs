@@ -7,12 +7,14 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System;
+using System.Collections.Concurrent;
 using Luban;
 
 
 namespace cfg
 {
-public partial class TbRes
+public partial class TbRes : TableSingleton<TbRes>
 {
     private readonly System.Collections.Generic.Dictionary<int, RawRes> _dataMap;
     private readonly System.Collections.Generic.List<RawRes> _dataList;
@@ -38,7 +40,7 @@ public partial class TbRes
     public RawRes Get(int key) => _dataMap[key];
     public RawRes this[int key] => _dataMap[key];
 
-    public void ResolveRef(Tables tables)
+    public override void ResolveRef(ConcurrentDictionary<Type, ITableSingleton> tables)
     {
         foreach(var _v in _dataList)
         {

@@ -7,6 +7,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System;
+using System.Collections.Concurrent;
 using Luban;
 
 
@@ -33,7 +35,7 @@ public partial struct vector4
     public readonly float W;
    
 
-    public  void ResolveRef(Tables tables)
+    public  void ResolveRef(ConcurrentDictionary<Type, ITableSingleton> tables)
     {
     }
 

@@ -7,6 +7,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System;
+using System.Collections.Concurrent;
 using Luban;
 
 
@@ -33,7 +35,7 @@ public abstract partial class ALocalize : Luban.BeanBase
     public readonly string Key;
    
 
-    public virtual void ResolveRef(Tables tables)
+    public virtual void ResolveRef(ConcurrentDictionary<Type, ITableSingleton> tables)
     {
     }
 
