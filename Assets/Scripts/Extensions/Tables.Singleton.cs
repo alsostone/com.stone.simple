@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Concurrent;
+using ST.Common;
 using UnityEngine;
 using YooAsset;
 
@@ -43,7 +44,7 @@ namespace Luban
         {
             if (instance != null)
             {
-                throw new Exception($"singleton register twice! {typeof (T).Name}");
+                SLogger.Error($"singleton register twice! {typeof (T).Name}");
             }
             instance = (T)this;
         }

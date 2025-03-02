@@ -13,7 +13,7 @@ namespace ST.Common
         private readonly List<AEventPostWrapper> mEventPostWrappers = new List<AEventPostWrapper>(32);
         private int mDispatchRef;
         
-        private void AddEventListener(int key, Delegate callback)
+        private void AddListener(int key, Delegate callback)
         {
             var evt = ClassPoolMgr.Instance.Get<EventListener>();
             evt.Action = callback;
@@ -51,31 +51,31 @@ namespace ST.Common
         }
 
         #region add & remove
-        public void AddEventListener(int key, Action callBack) { AddEventListener(key, (Delegate)callBack); }
-        public void AddEventListener<T1>(int key, Action<T1> callBack) { AddEventListener(key, (Delegate)callBack); }
-        public void AddEventListener<T1, T2>(int key, Action<T1, T2> callBack)
+        public void AddListener(int key, Action callBack) { AddListener(key, (Delegate)callBack); }
+        public void AddListener<T1>(int key, Action<T1> callBack) { AddListener(key, (Delegate)callBack); }
+        public void AddListener<T1, T2>(int key, Action<T1, T2> callBack)
         {
-            AddEventListener(key, (Delegate)callBack);
+            AddListener(key, (Delegate)callBack);
         }
-        public void AddEventListener<T1, T2, T3>(int key, Action<T1, T2, T3> callBack)
+        public void AddListener<T1, T2, T3>(int key, Action<T1, T2, T3> callBack)
         {
-            AddEventListener(key, (Delegate)callBack);
+            AddListener(key, (Delegate)callBack);
         }
-        public void AddEventListener<T1, T2, T3, T4>(int key, Action<T1, T2, T3, T4> callBack)
+        public void AddListener<T1, T2, T3, T4>(int key, Action<T1, T2, T3, T4> callBack)
         {
-            AddEventListener(key, (Delegate)callBack);
+            AddListener(key, (Delegate)callBack);
         }
-        public void AddEventListener<T1, T2, T3, T4, T5>(int key, Action<T1, T2, T3, T4, T5> callBack)
+        public void AddListener<T1, T2, T3, T4, T5>(int key, Action<T1, T2, T3, T4, T5> callBack)
         {
-            AddEventListener(key, (Delegate)callBack);
+            AddListener(key, (Delegate)callBack);
         }
-        public void AddEventListener<T1, T2, T3, T4, T5, T6>(int key, Action<T1, T2, T3, T4, T5, T6> callBack)
+        public void AddListener<T1, T2, T3, T4, T5, T6>(int key, Action<T1, T2, T3, T4, T5, T6> callBack)
         {
-            AddEventListener(key, (Delegate)callBack);
+            AddListener(key, (Delegate)callBack);
         }
-        public void AddEventListener<T1, T2, T3, T4, T5, T6, T7>(int key, Action<T1, T2, T3, T4, T5, T6, T7> callBack)
+        public void AddListener<T1, T2, T3, T4, T5, T6, T7>(int key, Action<T1, T2, T3, T4, T5, T6, T7> callBack)
         {
-            AddEventListener(key, (Delegate)callBack);
+            AddListener(key, (Delegate)callBack);
         }
         public void RemoveListener(int key, Action callBack) { RemoveEventListener(key, callBack); }
         public void RemoveListener<T1>(int key, Action<T1> callBack) { RemoveEventListener(key, callBack); }

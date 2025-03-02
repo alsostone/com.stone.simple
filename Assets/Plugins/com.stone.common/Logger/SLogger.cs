@@ -1,9 +1,12 @@
+using System.Diagnostics;
+
 namespace ST.Common
 {
     public static class SLogger
     {
         public static void SetLogEnable(bool enable) => UnityEngine.Debug.unityLogger.logEnabled = enable;
 
+        [Conditional("DEBUG")]
         public static void Debug(string content)
         {
             content = "[debug]" + content;
