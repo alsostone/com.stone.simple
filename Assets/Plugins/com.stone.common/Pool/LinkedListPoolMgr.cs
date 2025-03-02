@@ -1,25 +1,27 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
+
 
 namespace ST.Common
 {
-    public abstract class ADictionaryPoolMgr<T0> : Singleton<T0> where T0 : new()
+    public class LinkedListPoolMgr : ALinkedListPoolMgr<LinkedListPoolMgr> { }
+    
+    public abstract class ALinkedListPoolMgr<T0> : Singleton<T0> where T0 : new()
     {
         private readonly Dictionary<Type, IPool> mPools = new Dictionary<Type, IPool>();
 
-        public T Get<T>() where T : class, IDictionary
+        public LinkedList<T> Get<T>()
         {
             IPool pool = null;
             Type t = typeof(T);
             if (!mPools.TryGetValue(typeof(T), out pool)) {
-                pool = new DictionaryPool<T>();
+                pool = new LinkedListPool<T>();
                 mPools.Add(t, pool);
             }
-            return ((DictionaryPool<T>)pool).Get();
+            return ((LinkedListPool<T>)pool).Get();
         }
         
-        public void Return<T>(T obj) where T : class, IDictionary
+        public void Return<T>(T obj)
         {
             if (mPools.TryGetValue(obj.GetType(), out var pool)) {
                 pool.Return(obj);
@@ -34,5 +36,4 @@ namespace ST.Common
             mPools.Clear();
         }
     }
-    public class DictionaryPoolMgr : ADictionaryPoolMgr<DictionaryPoolMgr> { }
 }

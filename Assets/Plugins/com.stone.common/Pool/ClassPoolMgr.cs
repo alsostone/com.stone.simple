@@ -3,7 +3,9 @@ using System.Collections.Generic;
 
 namespace ST.Common
 {
-    public abstract class ClassPoolMgr<T0> : Singleton<T0> where T0 : new()
+    internal class ClassPoolMgr : AClassPoolMgr<ClassPoolMgr> { }
+    
+    public abstract class AClassPoolMgr<T0> : Singleton<T0> where T0 : new()
     {
         private readonly Dictionary<Type, IPool> mPools = new Dictionary<Type, IPool>();
 
